@@ -1,6 +1,6 @@
 # Fourier_series
 fourier_series.py is an animation to visualize the Fourier series approximation of the function using python 3.
-![Example animation](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![Example animation](https://github.com/Bra-A-Ket/Fourier_series/blob/main/fourier-exp.gif)
 ## Required packages
 1. Numpy:
 ```bash
