@@ -10,10 +10,10 @@ python -m pip install numpy
 python -m pip install matplotlib
 ```
 ## Usage
-Markup : - Choose the function for which the fourier series should be performed
-		 - Choose the upper limit of the interval (the lower limit is 0)
-		 - Choose the maximal order of the series
-		 - Choose the time step and axis leghts for the plotting
+- Choose the function for which the fourier series should be performed
+- Choose the upper limit of the interval (the lower limit is 0)
+- Choose the maximal order of the series
+- Choose the time step and axis leghts for the plotting
 
 ```python
 f = lambda t: np.exp(-t)
