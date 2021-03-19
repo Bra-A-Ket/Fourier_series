@@ -31,6 +31,6 @@ python -m fourier_series
 ```
 ## How it works
 The basic idea is to perform the non-complex fourier series. Therefore the coefficients  
-![picture alt](https://www.google.com/search?q=fourier+series&client=opera&hs=XYM&sxsrf=ALeKk00tefrDwmwVtSoinzaPkDimDBK1-A:1616174998194&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiG1aWF8bzvAhU0EWMBHbaKDHcQ_AUoAnoECA0QBA&biw=1496&bih=723&dpr=1.25#imgrc=hGLfwmfQgsO_sM)  
+![picture alt](https://miro.medium.com/max/875/0*gFnaliohbO3vh3ok)  
 are needed and will be calculated numerically by evalutation the integrals with the implementet monte carlo method.
 For discret point in the inverval [0,T] (step size dt) the fourier series of the order M will be plotted and finally animated.
