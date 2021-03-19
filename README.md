@@ -1,5 +1,6 @@
 # Fourier_series
 fourier_series.py is an animation to visualize the Fourier series approximation of the function using python 3.
+![Example animation](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
 ## Required packages
 1. Numpy:
 ```bash
@@ -31,6 +32,6 @@ python -m fourier_series
 ```
 ## How it works
 The basic idea is to perform the non-complex fourier series. Therefore the coefficients  
-![picture alt](https://miro.medium.com/max/875/0*gFnaliohbO3vh3ok)  
+![fourier](https://miro.medium.com/max/875/0*gFnaliohbO3vh3ok)  
 are needed and will be calculated numerically by evalutation the integrals with the implementet monte carlo method.
 For discret point in the inverval [0,T] (step size dt) the fourier series of the order M will be plotted and finally animated.
