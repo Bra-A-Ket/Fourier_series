@@ -23,13 +23,6 @@ from lib.monte_carlo_integration import *
 
 #functions
 def real_fourier(f, T, M, dt):
-    """
-        Relle Fourier Reihe
-        f: Funktion, lambda x: f(x)
-        T: Periode [0,T]
-        M: Ordnung
-    """
-
     nu = 1/T #frequency
     a0 = (2/T) * moca_int(f=f, N=1000, a=0, b=T) #coefficient a0
     an = [] #list of ai coefficients
