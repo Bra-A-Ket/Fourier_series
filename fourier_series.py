@@ -42,14 +42,13 @@ frames = []
 m = range(1, M+1) #list of orders
 
 start = time.time()
-
-for i in range(M):
+print("Creating animation...")
+for i in tqdm.tqdm(range(M)):
     fourier = real_fourier(f=f, T=T, M=m[i], dt=dt) #calculating Fourier points
     plt.plot(t, f(t), '-.', color='r') #plotting the input function f
     frames.append(plt.plot(t, fourier, 'b'))
     plt.grid(True)
     plt.axis([tmin, tmax, ymin, ymax])
-    print("image added for M = " + str(m[i]))
 
 end = time.time()
 print("Finished in {0:5f} sec.".format(end-start))

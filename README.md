@@ -10,6 +10,10 @@ python -m pip install numpy
 ```bash
 python -m pip install matplotlib
 ```
+3. tqdm
+```bash
+python -m pip install tqdm
+```
 ## Usage
 - Choose the function for which the fourier series should be performed
 - Choose the upper limit of the interval (the lower limit is 0)
